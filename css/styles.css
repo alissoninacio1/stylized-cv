@@ -1,0 +1,42 @@
+/*---------------------------TAG SELECTOR---------------------------------*/
+body {
+  background-color: #EAF6F6;
+ 
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+
+/* h1, h3 I can use 'coma' to separate two or more tags, if I want to apply the same style to both and I want to save code. */
+
+h1 {
+  color: #66BFBF;
+  transition: color .4s;
+}
+
+h1:hover {
+  color: #31d2ee;
+}
+
+
+
+h3 {
+color: #66BF66;
+transition: color .3s;
+}
+
+h3:hover {
+  color: #66BF30;
+}
+
+/*---------------------------CLASS SELECTOR---------------------------------*/
+.profileCirc {
+  border-radius: 50%;   /* I made this to avoid cropp the image again and hide up the blank square inside the photo */
+}
+
+
